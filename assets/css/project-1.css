@@ -1,0 +1,176 @@
+.img-1{
+	margin:3px;
+	height:100px;
+	width:225px;
+}
+.flex{
+	display:flex;
+	flex-warp:warp;
+}
+.list{
+	display:flex;
+	flex-warp:warp;
+	list-style-type:none;
+	color:white;
+	cursor:pointer;
+}
+.list li{
+	
+	margin-right:16px;
+	background-color:#f1f1f1;
+	color:black;
+	font-size:16px;
+}
+.background{
+	 background-image:url('../photo/main-bg.jpg');
+	 width:100%;
+	 height:100vh;
+	 background-size:cover;
+	 background-position:center;
+	 margin:0px;
+	
+}
+.heading{
+	display:flex;
+	padding:0px 100px 0px 0px;
+	font-size:35px;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	color:white;
+}
+.box-1{
+	background-color:transparent;
+	color:white;
+	opacity:0.9;
+	font-size:18px;
+	width:33.33px;
+}
+.box-1 p{
+	border:1px solid white;
+	margin:4px;
+	
+}
+
+.box{
+	display:flex;
+	padding:0px;
+	font-size:18px;
+}
+.box p{
+	margin:0px 8px;
+	
+}
+.btn {
+	margin:3px 5px 0px  300px; 
+	font-size:16px;
+	background-color:#09e62a;
+	color:#f1f1f1;
+}
+label{
+	margin:4px 5px 4px 10px;
+}
+.fontst{
+	text-transform:uppercase;
+	
+}
+p-2{
+	
+}
+.dhrumit{
+	width:700px;
+	height:400px;
+}
+.dhrumit-m{
+	height:300px;
+	width:300px;
+	margin:10px;
+}
+.airlins button{
+	margin:0px 15px 0px 15px;
+	background-color:black;
+	color:white;
+	font-size:18px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+
+
+
+
+
+
+
+/*extra small devices (phones ,600px and down)*/
+@media only screen and (max-width:600px){}
+
+/* small devices (portrait tablets and large phones,600px and up)*/
+@media only screen and (max-width:530px){
+	.btn {
+	margin:3px 5px 0px  100px;
+	}
+}
+
+@media only screen and (max-width:768px){
+	
+	 .dhrumit{
+		height:300px;
+		width:300px;
+	 }
+	 .airlins,.airlins button{
+		text-align:center;
+	 }
+}
+
+
+
+/*medium devices (land scape tablets 768px and up)*/
+@media only screen and (max-width:768px){}
+
+
+
+/*larg devices (leptops /desktops ,992px and up)*/
+@media only screen and (max-width:992px){
+	.fontst,.p-2{
+		display:block;
+	}
+	.list,.list li{
+		display:block;
+		margin-top:3px;
+	}
+	
+}
+/*extra large devices (large laptops and desktops ,1200px and up)*/
+@media only screen and (min-width:1200px){}
+	
+

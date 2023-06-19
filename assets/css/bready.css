@@ -1,0 +1,53 @@
+*{box-sizing:border-box;}
+.zoom img.hover-1{
+	
+	transform: scale(1.2);
+	height: auto;
+    width: 100%;
+	transition: all 0.65s ease;
+}
+.hover-2:hover img.hover-1{
+	
+	transform: scale(1);
+}
+.background{
+    position:relative;
+}
+.bgcolor{
+    position:absolute;
+	height:100%;
+	width:100%;
+	background-color:rgba(115, 99, 193, 0.25);
+	top:0px; 
+	display:none;
+}
+.background:hover .bgcolor{
+    display:block;
+}
+.econ i{
+    
+    display: inline-block;
+    width:80px;
+    height:80px;
+    background-color:lightblue;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.bi-box{
+    font-size:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media ( max-width:500px){
+	.custom-card-text{
+		font-size:18px;
+	}
+}

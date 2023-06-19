@@ -1,0 +1,74 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.wid{
+  width: 99%;
+}
+.nav-link{ 
+    color:light;
+} 
+.image{
+    width: 100%;
+    
+    height:calc(100vh - 137px);
+    background: url(../photo/dhrumit-1.jpg);
+    z-index: 3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.shadow{
+    box-shadow: 53px 0 -286px rgb(0 0 0 / -465%)!important;
+}
+.back{
+    background-color: #444444;
+    
+}
+.second-lsat{
+  background-color: #000000cc;
+}
+.zoom img.com{
+	
+	transform: scale(1);
+	height: auto;
+    width: 100%;
+	transition: all 0.65s ease;
+}
+.hover-1:hover img.com{
+
+	transform: scale(1.2);
+}
+.count {
+    background-color: #838084;
+    color: #fff;
+    font-family: "Roboto Mono", sans-serif;
+   
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  .counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+  }
+  
+  .counter {
+    font-size: 60px;
+    margin-top: 10px;
+    font-weight: 700;
+  }
+  .font{
+    font-family: "Open Sans", Arial, sans-serif;
+  }
+ 
+  @media (max-width: 580px) {
+    .count {
+      flex-direction: column;
+    }
+  }
+  

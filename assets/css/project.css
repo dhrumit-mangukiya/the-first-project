@@ -1,0 +1,19 @@
+*{ 
+	box-sizing:border-box;
+    font-family:sans-serif;
+}
+.background{
+    background-image:url('../photo/main-bg.jpg');
+    background-size:100%;
+    background-position:center;
+    margin:10px;
+    width:100%;
+    height:100vh;
+}
+
+.content{
+    width:100%;
+    height:100%;
+    flex-direction:column;
+  
+}
